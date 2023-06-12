@@ -13,7 +13,7 @@ import { LoginContext } from "./components/ContextProvider/Context";
 function App() {
 
   const [data, setData] = useState(false);
-
+const [user ,setUser] = useState("hgfhf")
   const { logindata, setLoginData } = useContext(LoginContext);
 
 
